@@ -8,29 +8,26 @@
   
 </head>
 <body>
-  <main class="container">
-    <h1>Catálogo de Filmes</h1>
+ <h1>menu</h1>
 
-    <section class="filters">
-      <div class="filter-group">
-        <label for="searchInput">Buscar título</label>
-        <input id="searchInput" type="search" placeholder="Pesquisar por título..." />
-      </div>
-      <div class="filter-group">
-        <label for="genreSelect">Gênero</label>
-        <select id="genreSelect">
-          <option value="all">Todos os gêneros</option>
-        </select>
-      </div>
-      <div class="filter-group">
-        <label for="yearInput">Ano</label>
-        <input id="yearInput" type="number" placeholder="Qualquer ano" min="1900" max="2100" />
-      </div>
-    </section>
+    <div class="caixa-esquerda">
+        <a href="login.html" class="botao-voltar">&larr;</a>
+        <br><br>
+        <button>Nossas Impressoras</button>
+        <br><br>
+        <button>Nossos Materiais</button>
+        <br><br>
+        <button>Nossas Peças</button>
+    </div>
 
-    <section id="filmList" class="film-list"></section>
-  </main>
+    <div class="caixa-direita">
+        <button>downloads</button>
+        <br><br>
+        <button>Contatos</button>
+        <br><br>
+        <button>Um pouco sobre a empresa</button>
+    </div>
 
-  <script src="app.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
