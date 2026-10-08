@@ -28,10 +28,10 @@ h1 {
     width: 25vw;
     height: 75vh;
     background-color: #dcdcdc;
-    border: 3px solid #0055ff;
     padding: 2vw;
     margin-left: 3vw;
     box-sizing: border-box;
+    border-radius: 5%;
 }
 
 .caixa-centro {
@@ -69,6 +69,7 @@ h1 {
     margin-right: 3vw;
     box-sizing: border-box;
     padding-top: 8vh; 
+    border-radius: 5%;
 }
 
 .botao-voltar {
