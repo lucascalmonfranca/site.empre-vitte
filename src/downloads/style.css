@@ -118,13 +118,3 @@ body {
 .botao-comprar:hover {
     background-color: #218838;
 }
-
-.carr {
-    width: 45px;
-    height: 45px;
-    cursor: pointer;
-    background-color: white;
-    border-radius: 50%;
-    padding: 5px;
-
-}
