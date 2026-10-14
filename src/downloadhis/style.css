@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    overflow: hidden;
+}
+
+.pagina-container {
+    width: 100%;
+    height: 90vh;
+    background-color: #315cae;
+    position: relative;
+    padding: 20px 40px;
+}
+
+.faixa-verde {
+    position: absolute;
+    bottom: -10vh;
+    left: 0;
+    width: 100%;
+    height: 10vh;
+    background-color: #5fb033;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.img-voltar {
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.cabecalho h1 {
+    color: black;
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+.conteudo-historico {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #dcdcdc;
+    border-radius: 15px;
+    padding: 20px;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.lista-historico {
+    overflow-y: auto;
+    max-height: 45vh;
+    padding-right: 10px;
+}
+
+.item-historico {
+    background-color: white;
+    border-radius: 10px;
+    padding: 12px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.item-historico img {
+    width: 45px;
+    height: 45px;
+    object-fit: contain;
+}
+
+.info-historico {
+    flex: 1;
+    margin-left: 15px;
+}
+
+.info-historico p {
+    font-size: 13px;
+    font-weight: bold;
+    color: black;
+}
+
+.info-historico span {
+    font-size: 11px;
+    color: #555;
+    display: block;
+    margin-top: 3px;
+}
+
+.item-vazio {
+    text-align: center;
+    font-size: 16px;
+    color: #555;
+    margin-top: 50px;
+}
+
+.painel-acoes {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn-limpar {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-limpar:hover {
+    background-color: #c82333;
+}
