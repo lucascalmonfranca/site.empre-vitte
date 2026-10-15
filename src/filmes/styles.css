@@ -61,12 +61,13 @@ body {
 
 
 .caixa-centro h2 {
-
+    color: #0066b2;
     margin-top: 15px;
     font-size: 28px;
 }
 
 .caixa-centro p {
+    color: #0077b6;
     font-size: 12px;
     font-weight: bold;
     margin-top: 5px;
@@ -89,6 +90,7 @@ body {
 button {
     width: 100%;
     height: 50px;
+    background-color: #2b56b5;
     color: white;
     border: none;
     font-size: 14px;
@@ -97,3 +99,6 @@ button {
     border-radius: 30%;
 }
 
+button:hover {
+    background-color: #1d3f8a;
+}
